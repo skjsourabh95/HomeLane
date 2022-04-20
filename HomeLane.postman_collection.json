@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "c97fbe29-3f62-407d-9e1a-6015d0eb0ac4",
+		"name": "HomeLane",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/user/get_sqftHomes/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "ACCESS-API-KEY",
+						"value": "jpiUDz4N.Nmq1VTEZ2JymGDrDaouZwPW4cVFJVfPR",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "json_file",
+							"type": "file",
+							"src": "/Users/skj/Interviews/homelane bckend /homelane/json samples/sqft_sample.json"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/user/get_sqftHomes/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"user",
+						"get_sqftHomes",
+						""
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/user/get_budgetHomes/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "ACCESS-API-KEY",
+						"value": "jpiUDz4N.Nmq1VTEZ2JymGDrDaouZwPW4cVFJVfPR",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "json_file",
+							"type": "file",
+							"src": "/Users/skj/Interviews/homelane bckend /homelane/json samples/budget_search.json"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/user/get_budgetHomes/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"user",
+						"get_budgetHomes",
+						""
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/user/get_ageHomes/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "ACCESS-API-KEY",
+						"value": "jpiUDz4N.Nmq1VTEZ2JymGDrDaouZwPW4cVFJVfPR",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "json_file",
+							"type": "file",
+							"src": "/Users/skj/Interviews/homelane bckend /homelane/json samples/age_sample.json"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/user/get_standardPrices/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"user",
+						"get_standardPrices",
+						""
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/user/get_standardPrices/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "ACCESS-API-KEY",
+						"value": "jpiUDz4N.Nmq1VTEZ2JymGDrDaouZwPW4cVFJVfPR",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "json_file",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/user/get_standardPrices/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"user",
+						"get_standardPrices",
+						""
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
