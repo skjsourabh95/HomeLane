@@ -75,3 +75,6 @@ ADMIN Credentials
 ![alt text](/images/api3.png)
 
 ![alt text](/images/api4.png)
+
+# Heroku Deployment
+![alt text](/images/heroku.png)

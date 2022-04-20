@@ -140,9 +140,8 @@ STATIC_ROOT= os.path.join(PROJECT_DIR,'static_media/')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = ["*"]
+CSRF_TRUSTED_ORIGINS = ["https://homelane-skj.herokuapp.com/"]
 
 CORS_ALLOW_METHODS = [
     "DELETE",
