@@ -1,0 +1,8 @@
+APP LINK - https://homelane-skj.herokuapp.com/
+
+APIS - https://homelane-skj.herokuapp.com/user/get_sqftHomes/ - EXECUTION TIME -5 SECS
+    - https://homelane-skj.herokuapp.com/user/get_budgetHomes/ - EXECUTION TIME -1 SECS
+    - https://homelane-skj.herokuapp.com/user/get_standardPrices/ - EXECUTION TIME - 1 SECS
+    - https://homelane-skj.herokuapp.com/user/get_standardPrices/ - EXECUTION TIME - 1 MIN
+
+CODE LINK - https://github.com/skjsourabh95/HomeLane
