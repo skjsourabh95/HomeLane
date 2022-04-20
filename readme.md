@@ -14,9 +14,9 @@
 ```cmd
 conda create -n homelane -y
 conda activate homelane
-pip install django djangorestframework djangorestframework-api-key
+pip install django djangorestframework djangorestframework-api-key django-cors-headers
 ```
-## django project setup
+## django project setup (only initial setup not while running)
 ```cmd
 django-admin startproject homelane
 python manage.py startapp queryservice
