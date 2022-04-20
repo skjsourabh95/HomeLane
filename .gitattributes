@@ -1,4 +1,6 @@
 * linguist-vendored
+static_media/* linguist-vendored
+
 *.html linguist-detectable=false
 *.js linguist-vendored=false
 *.css linguist-vendored=false
