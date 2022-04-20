@@ -15,7 +15,8 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-ALLOWED_HOSTS = ["https://homelane-skj.herokuapp.com","0.0.0.0","localhost"]
+ALLOWED_HOSTS = ["https://homelane-skj.herokuapp.com","https://0.0.0.0","localhost"]
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
@@ -25,7 +26,6 @@ SECRET_KEY = 'django-insecure-d(9!r84&_43emp*z%y*qa&l61y346zj2f_!+kbo2j$dt@8$gi(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
 API_KEY_CUSTOM_HEADER = "HTTP_ACCESS_API_KEY"
 
